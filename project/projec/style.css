@@ -1,0 +1,143 @@
+body{
+    background-color: #000;
+}
+
+
+
+/* w3 */
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  Style the button used to pause/play the video
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+
+ 
+  /* stack overflow */
+
+  
+  #container {
+    
+    position: relative;
+  }
+  
+  video {
+    width: 300px;
+  }
+
+  #changeVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    opacity: 0;
+    transition: opacity .3s ease;
+    cursor: pointer;
+    
+    /* Additional styles just to increase visual appeal */
+    border-radius: 50%;
+    background: #FFFFFFDD;
+    color: red;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center; 
+    /* End */
+  }
+  
+  On hovering the video, show the button
+  video:hover~#changeVideo {
+    opacity: 1;
+  }
+  
+  #changeVideo:hover {
+    opacity: 1;
+  }
+
+  #tes{
+    z-index: 9999;
+  }
+
+  .btnonvid{
+    background-color: transparent;
+    z-index: 9999;
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    width: 20%;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 400px;
+    margin-left: 39%;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: "Arial tall", "Arial wide", Arial, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  .hovbtn:hover{
+    background-color: magenta;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition: 2s;
+    color: white;
+  }
+
+  
+
+
+
+
+  /* stack overflow opt2 */
+/* .video-view {
+  
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-view .video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #ccc;
+}
+
+.video-view .video-content {
+  position: absolute;
+  bottom: 0px;
+} */

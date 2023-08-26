@@ -1,0 +1,189 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #ce70c3;
+    color: white;
+  }
+.anh-nen-1{
+    float:right;
+width: 500px;
+height: 250px;
+border-radius: 10px;
+box-shadow: -10px 10px 10px black;
+}
+
+
+
+/* w3 */
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+
+  .fakeimg {
+    background-color: #e3e1e1;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    
+    background-color: black;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    background: #e3e1e1;
+    z-index: 9999px;
+    color: black;
+  }
+
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+  .running-name-text{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .ab-me1{
+    font-size: xx-large;
+  }
+  .ab-me2{
+    font-size: larger;
+  }
+
+/* still w3, but slide */
+  /* Slideshow container */
+/* .slideshow-container {
+  height: 250px;
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+} */
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+/* .dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.favs{
+  font-size: larger;
+}
+
+.flams{
+  height: 150px;
+  box-shadow: 5px 10px 10px black;
+}
+.fakeimg2{
+
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+.fakeimg2:hover{
+  box-shadow: -5px 5px 10px black;
+  font-weight: bolder;
+  transition: 1.5s;
+  background-color: #ce70c3
+}
+.acc{
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.picm{
+  height: 180px;
+}
+a:link{
+  text-decoration: none
+}
+.fcc{
+  text-decoration: none;
+}

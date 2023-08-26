@@ -1,0 +1,385 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif
+}
+
+.body {
+    background-color: black;
+}
+
+.border-all {
+
+    width: 100%;
+
+}
+
+.super-bignav {
+    position: relative;
+}
+
+.logo {
+    font-size: 90px;
+}
+
+.bignav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar {
+    font-size: 50px;
+    display: flex;
+    list-style-type: none;
+    padding: 20px 20px 20px 20px;
+    width: 500px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.navhov:hover {
+    padding: 20px 20px 20px 20px;
+    background-color: #FFEAEA;
+    border-radius: 20px;
+    transition: 2s;
+    cursor: pointer;
+    box-shadow: -5px 5px 10px rgb(56, 244, 194);
+}
+
+.pic1 {
+    height: 743.2px;
+    width: 1536px;
+    z-index: 1;
+}
+
+.big1 {
+    margin: 0 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+
+.open-words {
+    line-height: 1;
+    font-size: 150px;
+    position: absolute;
+    bottom: 150px;
+    left: 120px;
+    font-weight: bolder;
+    color: #ffff;
+}
+
+.comm-text {
+    left: 150px;
+    bottom: 100px;
+    font-size: 30px;
+    position: absolute;
+    color: #ffff;
+}
+
+/* p2 */
+.pic2 {
+    z-index: 1;
+    width: 1536px;
+    height: 743.2px;
+    mix-blend-mode: lighten;
+}
+
+.general {
+    border-radius: 10px;
+    background-color: #FFB72B;
+    color: black;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    margin-right: 10px;
+}
+
+.gtc {
+    justify-content: space-evenly;
+    width: 100%;
+    color: #FFEAEA;
+    display: flex;
+
+    position: absolute;
+    bottom: 450px;
+}
+
+.gt {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
+.gt:hover {
+    background-color: rgb(227, 167, 55);
+    color: black;
+    transition: 1s;
+}
+
+.service {
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+
+
+}
+
+.ul2 {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* Default */
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+
+}
+
+.ul2:hover {
+    background-color: rgb(227, 167, 55);
+    color: black;
+    transition: 1s;
+}
+
+.serv-w {
+    color: black;
+    justify-content: center;
+    align-items: center;
+    bottom: 100px;
+    font-size: larger;
+    font-weight: 1200px;
+    align-items: center;
+    font-size: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #FFB72B;
+    margin-right: 10px;
+}
+
+.ul2 {
+    font-size: 25px;
+}
+
+.bp2 {
+    position: relative;
+}
+
+
+/* si-su */
+.ENP {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+    margin: auto;
+}
+
+.submit {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 30px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    width: 300px;
+    height: 30px;
+}
+
+.login {
+    border: 20px none gold;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.638);
+    background-color: aqua;
+}
+
+.LnS {
+    display: flex;
+    position: relative;
+    font-size: 10px;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.sign2,
+.log2 {
+    font-size: 20px;
+}
+
+.submit2 {
+    font-size: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 30px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    width: 300px;
+    height: 30px;
+}
+
+.sign-in {
+    border-radius: 10px;
+
+    border: 10px none none;
+    border: 20px none gold;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.612);
+    background-color: aqua;
+
+}
+
+.map {
+    height: 500px;
+    background-color: rgba(99, 53, 53, 0.59);
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.cont2 {
+    list-style-type: none;
+}
+
+.ending {
+    background-color: azure;
+}
+
+.pic3 {
+    mix-blend-mode: lighten;
+    width: 100%;
+    display: flex;
+    position: relative;
+    display: flex;
+    
+}
+
+.runt {
+    display: flex;
+    font-size: 25px;
+}
+
+.run2 {
+    display: flex;
+
+}
+
+.rooms {
+    position: relative;
+}
+
+.AR1 {
+    border-radius: 10px;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.AR1:hover{
+    transition: 2s;
+    width: 500px;
+}
+.AR1-1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 50px;
+    color: #e9e8ff;
+}
+.anh1, .anh2, .anh3, .anh4, .anh5{
+    color: azure;
+
+}
+.AR-p{
+display: flex;
+justify-content: center;
+}
+.AR2-1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 50px;
+    color: #e9e8ff;
+}
+.AR2 {
+    border-radius: 10px;
+    width: 400px;
+}
+.AR2:hover{
+    transition: 2s;
+    width: 500px;
+}
+
+.anh-pic3-chung {
+    width: 100%;
+position: absolute;
+bottom: 100px;
+}
+#marq{
+    background-color: rgb(84, 55, 203);
+    color: orange;
+}
+.footer{
+    font-size: 25px;
+    background-color: rgb(113, 112, 112);
+display: flex;
+justify-content: center;
+}
+.gmap{
+    border-radius: 10px;
+}
